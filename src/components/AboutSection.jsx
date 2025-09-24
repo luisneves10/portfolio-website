@@ -35,7 +35,7 @@ export const AboutSection = () => {
 								<a href="#contact" className="primary-button">
 									Get in Touch
 								</a>
-								<a href="" className="inverse-button">
+								<a href="/CV_LuisNeves.pdf" target="_blank" rel="noopener noreferrer" className="inverse-button">
 									Download CV
 								</a>
 							</div>
