@@ -13,7 +13,7 @@ export const ContactSection = () => {
 					I'm always open to discussing new opportunities.
 				</p>
 
-				<div className="flex flex-col sm:flex-row items-center justify-around">
+				<div className="flex flex-col sm:flex-row items-center justify-around gap-3">
 					<div className="flex items-center space-x-2">
 						<div className="p-3 rounded-full bg-primary/10">
 							<Mail className="h-6 w-6 text-primary" />
