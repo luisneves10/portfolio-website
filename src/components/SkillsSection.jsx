@@ -2,27 +2,27 @@ import { useState } from "react";
 import { cn } from "../lib/utils";
 
 const skills = [
-	{ name: "Bash", icon: "/src/assets/bash.svg", category: "programming" },
-	{ name: "C", icon: "/src/assets/c.svg", category: "programming" },
-	{ name: "C++", icon: "/src/assets/cplusplus.svg", category: "programming" },
-	{ name: "HTML", icon: "/src/assets/html5.svg", category: "programming" },
-	{ name: "Tailwind CSS", icon: "/src/assets/tailwindcss.svg", category: "programming" },
-	{ name: "JavaScript", icon: "/src/assets/javascript.svg", category: "programming" },
-	{ name: "TypeScript", icon: "/src/assets/typescript.svg", category: "programming" },
-	{ name: "React", icon: "/src/assets/react.svg", category: "programming" },
-	{ name: "SQLite", icon: "/src/assets/sqlite.svg", category: "programming" },
-	{ name: "Python", icon: "/src/assets/python.svg", category: "programming" },
+	{ name: "Bash", icon: "/assets/bash.svg", category: "programming" },
+	{ name: "C", icon: "/assets/c.svg", category: "programming" },
+	{ name: "C++", icon: "/assets/cplusplus.svg", category: "programming" },
+	{ name: "HTML", icon: "/assets/html5.svg", category: "programming" },
+	{ name: "Tailwind CSS", icon: "/assets/tailwindcss.svg", category: "programming" },
+	{ name: "JavaScript", icon: "/assets/javascript.svg", category: "programming" },
+	{ name: "TypeScript", icon: "/assets/typescript.svg", category: "programming" },
+	{ name: "React", icon: "/assets/react.svg", category: "programming" },
+	{ name: "SQLite", icon: "/assets/sqlite.svg", category: "programming" },
+	{ name: "Python", icon: "/assets/python.svg", category: "programming" },
 
-	{ name: "Git", icon: "/src/assets/git.svg", category: "tools" },
-	{ name: "Github", icon: "/src/assets/github.svg", category: "tools" },
-	{ name: "Docker", icon: "/src/assets/docker.svg", category: "tools" },
-	{ name: "Figma", icon: "/src/assets/figma.svg", category: "tools" },
-	{ name: "VS Code", icon: "/src/assets/vscode.svg", category: "tools" },
-	{ name: "Neovim", icon: "/src/assets/neovim.svg", category: "tools" },
+	{ name: "Git", icon: "/assets/git.svg", category: "tools" },
+	{ name: "Github", icon: "/assets/github.svg", category: "tools" },
+	{ name: "Docker", icon: "/assets/docker.svg", category: "tools" },
+	{ name: "Figma", icon: "/assets/figma.svg", category: "tools" },
+	{ name: "VS Code", icon: "/assets/vscode.svg", category: "tools" },
+	{ name: "Neovim", icon: "/assets/neovim.svg", category: "tools" },
 
-	{ name: "AutoCAD", icon: "/src/assets/autocad.svg", category: "CAD" },
-	{ name: "SolidWorks", icon: "/src/assets/solidworks.svg", category: "CAD" },
-	{ name: "3D Studio MAX", icon: "/src/assets/threedsmax.svg", category: "CAD" },
+	{ name: "AutoCAD", icon: "/assets/autocad.svg", category: "CAD" },
+	{ name: "SolidWorks", icon: "/assets/solidworks.svg", category: "CAD" },
+	{ name: "3D Studio MAX", icon: "/assets/threedsmax.svg", category: "CAD" },
 ];
 
 const categories = ["all", "programming", "tools", "CAD"];
