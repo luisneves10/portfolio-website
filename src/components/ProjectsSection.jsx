@@ -7,7 +7,7 @@ const projects = [
 		description: "This website... duh.",
 		image: "/projects/portfolio.gif",
 		tags: ["Web", "HTML", "TailwindCSS", "React"],
-		githubURL: "#",
+		githubURL: "https://github.com/luisneves10/portfolio-website",
 	},
 
 	{
