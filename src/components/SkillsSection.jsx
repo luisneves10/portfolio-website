@@ -10,7 +10,6 @@ const skills = [
 	{ name: "JavaScript", icon: "/assets/javascript.svg", category: "programming" },
 	{ name: "TypeScript", icon: "/assets/typescript.svg", category: "programming" },
 	{ name: "React", icon: "/assets/react.svg", category: "programming" },
-	{ name: "SQLite", icon: "/assets/sqlite.svg", category: "programming" },
 	{ name: "Python", icon: "/assets/python.svg", category: "programming" },
 
 	{ name: "Git", icon: "/assets/git.svg", category: "tools" },
