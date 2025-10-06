@@ -4,7 +4,7 @@ export const HeroSection = () => {
 	return (
 		<section
 			id="hero"
-			className="relative min-h-screen flex flex-col items-center justify-center px-4 gap-5"
+			className="relative min-h-screen flex flex-col items-center justify-center px-4"
 		>
 			<div className="container max-w-4xl mx-auto text-center z-10">
 				<div className="space-y-6 flex flex-col items-center">
@@ -23,9 +23,9 @@ export const HeroSection = () => {
 					</div>
 				</div>
 			</div>
-			<div className="md:hidden flex flex-col gap-3 opacity-0 animate-fade-in-delay-4">
-				<img src="/cv_qrcode.svg" className="w-100 rounded-4xl shadow-md" />
-				<p className="text-sm text-foreground/80 mx-auto opacity-0 animate-fade-in-delay-3">
+			<div className="md:hidden flex flex-col items-center gap-3 opacity-0 animate-fade-in-delay-4">
+				<img src="/cv_qrcode.svg" className="w-70 rounded-4xl shadow-md" />
+				<p className="text-xs text-foreground/80 mx-auto opacity-0 animate-fade-in-delay-3">
 					Scan the QR code to get my CV, or click <span className="underline">
 						<a href="/CV_LuisNeves.pdf" target="_blank" rel="noopener noreferrer">
 							here
