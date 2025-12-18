@@ -14,43 +14,49 @@ export const ContactSection = () => {
 				</p>
 
 				<div className="flex flex-col sm:flex-row items-center justify-around gap-3">
-					<div className="flex items-center space-x-2">
-						<div className="p-3 rounded-full bg-primary/10">
-							<Mail className="h-6 w-6 text-primary" />
+					<a
+						href="mailto:luisneves10@gmail.com"
+						className="hover:scale-105 hover:text-primary transition ease-in-out duration-300"
+					>
+						<div className="flex items-center space-x-2">
+							<div className="p-3 rounded-full bg-primary/10">
+								<Mail className="h-6 w-6 text-primary" />
+							</div>
+							<p className="text-muted-foreground font-medium transition-colors">
+								luisneves10@gmail.com
+							</p>
 						</div>
-						<a
-							href="mailto:luisneves10@gmail.com"
-							className="text-muted-foreground font-medium hover:text-primary transition-colors"
-						>
-							luisneves10@gmail.com
-						</a>
-					</div>
-					<div className="flex items-center space-x-2">
-						<div className="p-3 rounded-full bg-primary/10">
-							<Linkedin className="h-6 w-6 text-primary" />
+					</a>
+					<a
+						href="https://linkedin.com/in/luisfbneves"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="hover:scale-105 hover:text-primary transition ease-in-out duration-300"
+					>
+						<div className="flex items-center space-x-2">
+							<div className="p-3 rounded-full bg-primary/10">
+								<Linkedin className="h-6 w-6 text-primary" />
+							</div>
+							<p className="text-muted-foreground font-medium transition-colors">
+								luisfbneves
+							</p>
 						</div>
-						<a
-							href="https://linkedin.com/in/luisfbneves"
-							target="_blank"
-							rel="noopener noreferrer"
-							className="text-muted-foreground font-medium hover:text-primary transition-colors"
-						>
-							luisfbneves
-						</a>
-					</div>
-					<div className="flex items-center space-x-2">
-						<div className="p-3 rounded-full bg-primary/10">
-							<Github className="h-6 w-6 text-primary" />
+					</a>
+					<a
+						href="https://github.com/luisneves10/"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="hover:scale-105 hover:text-primary transition ease-in-out duration-300"
+					>
+						<div className="flex items-center space-x-2">
+							<div className="p-3 rounded-full bg-primary/10">
+								<Github className="h-6 w-6 text-primary" />
+							</div>
+							<p className="text-muted-foreground font-medium transition-colors">
+								luisneves10
+							</p>
 						</div>
-						<a
-							href="https://github.com/luisneves10/"
-							target="_blank"
-							rel="noopener noreferrer"
-							className="text-muted-foreground font-medium hover:text-primary transition-colors"
-						>
-							luisneves10
-						</a>
-					</div>
+					</a>
 				</div>
 			</div>
 		</section >
