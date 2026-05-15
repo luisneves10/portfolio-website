@@ -2,17 +2,17 @@ import { useState } from "react";
 import { cn } from "../lib/utils";
 
 const skills = [
-	{ name: "Bash", icon: "/assets/bash.svg", category: "programming" },
-	{ name: "C", icon: "/assets/c.svg", category: "programming" },
-	{ name: "C++", icon: "/assets/cplusplus.svg", category: "programming" },
 	{ name: "HTML", icon: "/assets/html5.svg", category: "programming" },
 	{ name: "Tailwind CSS", icon: "/assets/tailwindcss.svg", category: "programming" },
 	{ name: "JavaScript", icon: "/assets/javascript.svg", category: "programming" },
 	{ name: "TypeScript", icon: "/assets/typescript.svg", category: "programming" },
 	{ name: "React", icon: "/assets/react.svg", category: "programming" },
-	{ name: "Python", icon: "/assets/python.svg", category: "programming" },
 	{ name: "Next.js", icon: "/assets/nextjs.svg", category: "programming" },
 	{ name: "Supabase", icon: "/assets/supabase.svg", category: "programming" },
+	{ name: "Bash", icon: "/assets/bash.svg", category: "programming" },
+	{ name: "C", icon: "/assets/c.svg", category: "programming" },
+	{ name: "C++", icon: "/assets/cplusplus.svg", category: "programming" },
+	{ name: "Python", icon: "/assets/python.svg", category: "programming" },
 
 	{ name: "Git", icon: "/assets/git.svg", category: "tools" },
 	{ name: "Github", icon: "/assets/github.svg", category: "tools" },
