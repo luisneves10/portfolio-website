@@ -7,7 +7,7 @@ const projects = [
 		id: 1,
 		title: "Bakord",
 		short: "Order Management App for Pastry Shops.",
-		description: "",
+		description: "Bakord is a full-stack order management app built for a real pastry shop to replace paper notebooks during high-demand periods like Christmas. It handles order registration, production counting, label printing, and pickup management. Built with React, Django, PostgreSQL, and Docker, it was my first application deployed and used in the real world — and the one that taught me what it actually means to build software for solving real-world problems.",
 		image: null,
 		video: "/projects/bakord_demo.mov",
 		tags: ["Web", "HTML", "TailwindCSS", "React", "Django", "PostgreSQL", "Docker"],
@@ -18,7 +18,7 @@ const projects = [
 		id: 2,
 		title: "Portfolio Website",
 		short: "This website... duh.",
-		description: "",
+		description: "This portfolio was my first real project with React, built to showcase who I am and what I build. It features a light/dark mode toggle, a filterable skills grid, and a projects section with previews. Built with React, TailwindCSS, and Vite, it taught me how to structure a component-based UI, manage state, and think about responsive design from scratch.",
 		image: "/projects/portfolio.gif",
 		video: null,
 		tags: ["Web", "HTML", "TailwindCSS", "React"],
@@ -29,7 +29,7 @@ const projects = [
 		id: 3,
 		title: "ft_transcendence",
 		short: "Pong game website.",
-		description: "",
+		description: "ft_transcendence is a full-stack Pong platform built as the final project of the 42 curriculum. It supports local and online multiplayer, 4-player tournaments, user authentication with 2FA and Google OAuth, and a 3D game engine powered by Babylon.js. Developed in a team of four, I led the frontend and implemented multi-language support (EN/PT/FR). The project taught me how to collaborate on a large codebase using Git workflows, integrate complex backend systems, and ship a real-time web application end to end.",
 		image: "/projects/ft_transcendence.gif",
 		video: null,
 		tags: ["Web", "HTML", "TypeScript", "TailwindCSS", "Node.js", "SQLite", "Docker"],
@@ -39,7 +39,7 @@ const projects = [
 		id: 4,
 		title: "cub3d",
 		short: "3D game inspired in Wolfenstein 3D.",
-		description: "",
+		description: "cub3d is a 42 group project where we built a basic 3D game engine from scratch in C, inspired by Wolfenstein 3D. It uses raycasting to render a 3D perspective from a 2D map, with texture mapping, player movement, and map parsing. The project deepened my understanding of graphics programming, linear algebra, and writing performance-critical code in C.",
 		image: "/projects/cub3d.gif",
 		video: null,
 		tags: ["C", "Graphics", "Raycasting", "3D Game"],
@@ -64,7 +64,7 @@ export const ProjectsSection = () => {
 					{projects.map((project) => (
 						<div
 							key={project.id}
-							className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+							className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover hover:cursor-pointer"
 							onClick={() => setSelectedProject(project)}
 						>
 							<div className="md:h-42 overflow-hidden">
