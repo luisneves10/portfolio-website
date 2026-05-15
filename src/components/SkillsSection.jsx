@@ -11,6 +11,8 @@ const skills = [
 	{ name: "TypeScript", icon: "/assets/typescript.svg", category: "programming" },
 	{ name: "React", icon: "/assets/react.svg", category: "programming" },
 	{ name: "Python", icon: "/assets/python.svg", category: "programming" },
+	{ name: "Next.js", icon: "/assets/nextjs.svg", category: "programming" },
+	{ name: "Supabase", icon: "/assets/supabase.svg", category: "programming" },
 
 	{ name: "Git", icon: "/assets/git.svg", category: "tools" },
 	{ name: "Github", icon: "/assets/github.svg", category: "tools" },
@@ -18,6 +20,7 @@ const skills = [
 	{ name: "Figma", icon: "/assets/figma.svg", category: "tools" },
 	{ name: "VS Code", icon: "/assets/vscode.svg", category: "tools" },
 	{ name: "Neovim", icon: "/assets/neovim.svg", category: "tools" },
+	{ name: "Jira", icon: "/assets/jira.svg", category: "tools" },
 
 	{ name: "AutoCAD", icon: "/assets/autocad.svg", category: "CAD" },
 	{ name: "SolidWorks", icon: "/assets/solidworks.svg", category: "CAD" },
