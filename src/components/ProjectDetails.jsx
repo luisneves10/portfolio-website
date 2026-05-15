@@ -10,12 +10,12 @@ export const ProjectDetails = ({ project, onClose }) => {
     if (!project) return null;
 
     return (
-        <div 
-            className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fade-in"
+        <div
+            className="fixed inset-0 z-50 flex flex-col bg-card animate-fade-in md:items-center md:justify-center md:p-4 md:bg-black/70 md:backdrop-blur-sm"
             onClick={onClose}
         >
             <div
-                className="flex flex-col bg-card w-full max-w-3xl max-h-[90vh] rounded-2xl shadow-2xl border border-border"
+                className="flex flex-col h-full w-full md:h-auto md:bg-card md:max-w-3xl md:max-h-[90vh] md:rounded-2xl md:shadow-2xl md:border md:border-border"
                 onClick={(e) => e.stopPropagation()}
             >
                 {/* Header */}

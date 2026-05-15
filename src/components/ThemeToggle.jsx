@@ -34,9 +34,9 @@ export const ThemeToggle = () => {
 			"fixed text-primary bottom-2 right-2 z-50 p-2 rounded-full transition-colors duration-300",
 			"hover:cursor-pointer hover:shadow-md hover:shadow-gray-500 focus:outline-hidden")}>
 			{isDarkMode ?
-				(<Sun className="h-6 w-6" />)
+				(<Moon className="h-6 w-6" />)
 				:
-				(<Moon className="h-6 w-6" />)}
+				(<Sun className="h-6 w-6" />)}
 		</button>
 	);
 }
