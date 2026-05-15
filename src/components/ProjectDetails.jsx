@@ -1,6 +1,12 @@
 import { GithubIcon, X } from "lucide-react";
+import { useEffect } from "react";
 
 export const ProjectDetails = ({ project, onClose }) => {
+    useEffect(() => {
+        document.body.style.overflow = "hidden";
+        return () => { document.body.style.overflow = ""; };
+    }, []);
+
     if (!project) return null;
 
     return (
@@ -21,11 +27,12 @@ export const ProjectDetails = ({ project, onClose }) => {
 
                 <div className="w-full bg-muted flex items-center justify-center overflow-hidden">
                     {project.video ? (
-                        <video 
-                            src={project.video} 
-                            autoPlay 
-                            muted 
-                            loop 
+                        <video
+                            src={project.video}
+                            autoPlay
+                            muted
+                            loop
+                            disablePictureInPicture
                             className="w-full h-auto max-h-[400px] object-contain"
                         />
                     ) : project.image ? (
@@ -71,7 +78,7 @@ export const ProjectDetails = ({ project, onClose }) => {
                                 className="primary-button inline-flex items-center gap-2"
                             >
                                 <GithubIcon size={18} />
-                                View Source Code
+                                View More
                             </a>
                         </div>
                     )}

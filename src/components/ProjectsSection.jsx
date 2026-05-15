@@ -6,11 +6,11 @@ const projects = [
 	{
 		id: 1,
 		title: "Bakord",
-		short: "Web app to register orders",
+		short: "Order Management App for Pastry Shops.",
 		description: "",
 		image: null,
 		video: "/projects/bakord_demo.mov",
-		tags: ["Web", "HTML", "TailwindCSS", "React", "Django", "PostgreSQL"],
+		tags: ["Web", "HTML", "TailwindCSS", "React", "Django", "PostgreSQL", "Docker"],
 		githubURL: null,
 	},
 
@@ -32,7 +32,7 @@ const projects = [
 		description: "",
 		image: "/projects/ft_transcendence.gif",
 		video: null,
-		tags: ["Web", "HTML", "TypeScript", "TailwindCSS", "Node.js", "SQLite"],
+		tags: ["Web", "HTML", "TypeScript", "TailwindCSS", "Node.js", "SQLite", "Docker"],
 		githubURL: "https://github.com/isilva-t/42.Transcendence",
 	},
 	{
@@ -72,7 +72,7 @@ export const ProjectsSection = () => {
 									<img src={project.image} alt={project.title} className="object-cover transition-transform duration-500 group-hover:scale-110 pointer-events-none" />
 								)}
 								{project.video && (
-									<video src={project.video} type="video/mov" autoPlay muted loop className="object-cover transition-transform duration-500 group-hover:scale-110 pointer-events-none" />
+									<video src={project.video} type="video/mov" autoPlay muted loop disablePictureInPicture className="object-cover transition-transform duration-500 group-hover:scale-110 pointer-events-none" />
 								)}
 							</div>
 
